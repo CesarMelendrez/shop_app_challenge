@@ -34,7 +34,7 @@
 	</div>
 </div>
 
-<img id="AnimateOrange2" src="assets/img/animateOrangeF.gif">
+<img id="AnimateOrange2" ng-src="{{ctrl.timed && 'assets/img/animateOrangeF.gif' || ''}}">
 
 <div id="backToShop">
 	<button id="nextbutton" class="btn btn-green btn-lg" ng-click="ctrl.backHome()">

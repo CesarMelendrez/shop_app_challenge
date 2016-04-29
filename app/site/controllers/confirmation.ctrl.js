@@ -10,10 +10,19 @@
 		// and order list form checkout info
 		
 		cfrmVm.orderId = $stateParams.orderId
+		cfrmVm.timed = false;
 		console.log(cfrmVm.orderId)
 		getOrder();
 		// cfrmVm.order = productSrv.orders[0]
 		console.log(cfrmVm.order)
+
+		setTimeout(function(){
+			$scope.$apply(function(){
+				cfrmVm.timed = true;
+				console.log('timed');
+				console.log(cfrmVm.timed);
+			});
+		},1500);
 
 		function getOrder(){
 			for(var i = 0;i<productSrv.orders.length;i++){
