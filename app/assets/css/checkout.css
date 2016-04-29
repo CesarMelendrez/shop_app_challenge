@@ -9,10 +9,10 @@
 }
 
 #checkout .checkout-header {
-	margin-top: 10px;
-	margin-bottom: 20px;
-	vertical-align: middle;
-	text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #checkout .check-title{
@@ -107,37 +107,37 @@
 }
 
 #checkout .panel-heading {
-	background-color: #EF6A33;
-	color: white;
+  background-color: #EF6A33;
+  color: white;
 }
 
 /*#checkout .nextbutton {
-	border-color:  #EF6A33;
-	background-color: white;
-	color: #EF6A33;
+  border-color:  #EF6A33;
+  background-color: white;
+  color: #EF6A33;
 }
 
-#checkout .nextbutton:hover { 
+#checkout .nextbutton:hover {
     background-color: lightgrey;
 }*/
 
 /*#checkout .checkout-btn {
-	background-color: #9ACC60;
-	border-color: white;
+  background-color: #9ACC60;
+  border-color: white;
 }
 
-#checkout .checkout-btn:hover { 
-	background-color: lightgrey;
+#checkout .checkout-btn:hover {
+  background-color: lightgrey;
 }*/
 
 #checkout .btn-next, #checkout .btn-checkout{
-	/*float:center;*/
-	float:right;
-	/*margin: 0 auto;*/
+  /*float:center;*/
+  float:right;
+  /*margin: 0 auto;*/
 }
 
 #AnimateOrange2 {
-	position: absolute;
-	top:355px;
-	right: 0px;
+  position: absolute;
+  top:355px;
+  right: 0px;
 }
