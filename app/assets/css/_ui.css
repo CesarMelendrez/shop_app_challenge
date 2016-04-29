@@ -105,10 +105,10 @@ Nav
 }
 
 #shop-navbar .cart:hover .badge{
-    /*color:black;
-    border-color:black;*/
-    font-weight:bold;
-    border-width: 2px;
+    color:#FF8237;
+    border-color:#FF8237;
+  /*  font-weight:bold;
+    border-width: 2px;*/
 }
 
 #shop-navbar .btn-white:hover{

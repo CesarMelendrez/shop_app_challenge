@@ -3,7 +3,7 @@
 		.module('shopApp')
 		.controller('ConfirmationCtrl',ConfirmationCtrl)
 
-	function ConfirmationCtrl($scope,$stateParams,productSrv,$location){
+	function ConfirmationCtrl($scope,$stateParams,productSrv,$location,$state){
 		var cfrmVm = this;
 
 		//TODO #1 Capture name, email, conirmation #
@@ -36,7 +36,7 @@
 		cfrmVm.backHome = backHome;
 		
 		function backHome() {
-			$location.path('/categories/accessories');
+			$location.path('/categories/all');
 		}
 	}
 
