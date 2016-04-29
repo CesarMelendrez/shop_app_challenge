@@ -18,7 +18,7 @@
 		</div>
 		<div class="input-group margin">
   			<span class="input-group-addon newProduct" id="basic-addon1">Category</span>
-  			<select id="newProduct2" ng-options="options as options.category for options in ctrl.categories" class="form-control" ng-model="ctrl.curCate" name="category" required></select>
+  			<select id="newProduct2" ng-options="options as (options.category|titleCaseFilter) for options in ctrl.categories" class="form-control" ng-model="ctrl.curCate" name="category" required></select>
 		</div>
 		<div class="input-group margin">
   			<span class="input-group-addon newProduct">$ Price</span>

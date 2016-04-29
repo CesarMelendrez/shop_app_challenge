@@ -66,6 +66,7 @@
   /*float:right;*/
   /*border:1px solid blue;*/
   text-align: right;
+  margin-bottom: 1vw;
 }
 
 #checkout .qty-input{

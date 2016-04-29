@@ -43,11 +43,17 @@
           <td><button class="btn btn-danger btn-xs" ng-click='ctrl.removeCart($index)'><i class="fa fa-times"></i></button></td>
         </tr>
       </table>
+
       <div class="totals">
-        <h4>Subtotal:{{ctrl.total|currency}}</h4>
-        <h4>Tax:{{ctrl.total * 0.13 |currency}}</h4>
-        <h4>Total:{{ctrl.total * 1.13|currency}}</h4>
+        
+            <h4>Subtotal:{{ctrl.total|currency}}</h4>
+      
+            <h4>Tax:{{ctrl.total * 0.13 |currency}}</h4>
+      
+            <h4>Total:{{ctrl.total * 1.13|currency}}</h4>
+   
       </div>
+
       <button class="btn btn-white btn-next" ng-click='ctrl.selected = 2'>Next Step</button>
       </form>
     </ul>

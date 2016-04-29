@@ -66,6 +66,7 @@ h1 {
 
 #info h3{
   margin: 2vw 0vw;
+  color:#ff6d37;
 }
 
 /*#info button{
@@ -79,7 +80,7 @@ h1 {
 
 
 #confirm {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
