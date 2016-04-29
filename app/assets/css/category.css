@@ -61,7 +61,7 @@
 
 /*Side Bar*/
 .sidebar{
-	height: 100em;
+	max-height: 100em;
 	background-color:white;
 	position: fixed;
 	top: 7vw;
@@ -148,7 +148,7 @@
 	font-size:16px;
 }
 
-#categories .category-list li:hover{
+.category-list li:hover{
 	color:#ff6d37;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .sidebar .list{
-	margin: 3vw 0vw;
+	margin: 1vw 0vw;
 }
 
 .active{
