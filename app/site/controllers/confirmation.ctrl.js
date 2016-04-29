@@ -22,7 +22,7 @@
 				console.log('timed');
 				console.log(cfrmVm.timed);
 			});
-		},1500);
+		},1000);
 
 		function getOrder(){
 			for(var i = 0;i<productSrv.orders.length;i++){
