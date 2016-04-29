@@ -23,7 +23,7 @@
 
         <h3 ng-show='ctrl.product.quantity <= 0' class='warning-text'>SOLD OUT</h3>
 
-        <form name='quantForm' class="form-inline" id="formmargin" ng-hide='ctrl.product.quantity <= 0'>
+        <form name='quantForm' class="form-inline" id="formmargin" ng-hide='ctrl.product.quantity <= 0' novalidate>
 
           <h5>Quantity: </h5><input type="number" class="form-control" ng-model='ctrl.quantity' max={{ctrl.product.quantity}}></input>
           <!-- <div data-toggle="modal" data-target="#myModal" class="btnmargin"> -->
