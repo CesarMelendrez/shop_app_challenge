@@ -29,8 +29,10 @@
   			<input id="newProduct2" type="number" name="quantity" class="form-control" placeholder="ProductName"
   			aria-describedby="basic-addon1" ng-model="ctrl.product.quantity" required>
 		</div>
+
 		<div class="input-group margin updateBu marginTop">
-			<button class="btn btn-success btn-green" type="submit" ng-click='ctrl.updateProduct()'>{{ctrl.product_update_btn}}</button>
+			<button class="btn btn-green" type="submit" ng-click='ctrl.updateProduct()'>{{ctrl.product_update_btn}}</button>
+
 			<button class="btn btn-danger deleteBu" type="submit" ng-click='ctrl.deleteProduct()'>{{ctrl.product_delete_btn}}</button>
 		</div>
 </article>

@@ -354,15 +354,18 @@ Top-content
 .btn-green{
 	background-color: #9ACC60;
 	border-color:#bAeC80;
+	color:white;
 }
 
 .btn-green:active, .btn-green:focus,.btn-green:visited{
 	background-color: #9ACC60;
 	border-color:#bAeC80;
+	color:white;
 }
 
 .btn-green:hover { 
 	background-color: #A7DE68;
+	color:white;
 }
 
 .btn-white{
